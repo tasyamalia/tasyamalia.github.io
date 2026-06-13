@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Tasya Amalia Salsabila | Android Engineer",
     description:
-      "Android Engineer with 5+ years of experience delivering production fintech and banking systems.",
+      "Android Engineer with 5+ years of experience building production fintech and banking systems.",
     url: siteUrl,
     siteName: "Tasya Amalia Salsabila",
     locale: "en_US",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Tasya Amalia Salsabila | Android Engineer",
     description:
-      "Android Engineer with 5+ years of experience delivering production fintech and banking systems."
+      "Android Engineer with 5+ years of experience building production fintech and banking systems."
   },
   icons: {
     icon: "/favicon.svg"
