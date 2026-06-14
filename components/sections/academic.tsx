@@ -74,6 +74,8 @@ export function Academic() {
                   </a>
                 </h3>
                 <p className="mt-2 text-sm leading-6 text-slate-300">
+                  {smk.level}
+                  <br />
                   {smk.degree}
                   <br />
                   {smk.period}

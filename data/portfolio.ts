@@ -366,6 +366,7 @@ export const academic = {
     {
       school: "SMK Telkom Malang",
       href: "https://www.linkedin.com/school/smktelkommalang/posts/?feedView=all",
+      level: "Vocational High School",
       degree: "Software Engineering",
       period: "2016 - 2019",
       highlights: [
