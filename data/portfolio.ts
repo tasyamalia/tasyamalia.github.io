@@ -34,7 +34,7 @@ export const techChips = ["Kotlin", "Jetpack Compose", "Android", "Clean Archite
 export const metrics: Metric[] = [
   { value: "20M+", label: "Total App Downloads", accent: "green", icon: Download },
   { value: "67+", label: "Major Production Features", accent: "gold", icon: Rocket },
-  { value: "5+", label: "Years Android Engineering", accent: "blue", icon: BriefcaseBusiness },
+  { value: "5+", label: "Years in Mobile Development", accent: "blue", icon: BriefcaseBusiness },
   { value: "4", label: "Large Scale Financial Products", accent: "purple", icon: LayoutGrid }
 ];
 

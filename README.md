@@ -1,6 +1,6 @@
 # Tasya Amalia Salsabila
 
-Personal portfolio website for Tasya Amalia Salsabila, an Android Engineer with 5+ years of experience building production fintech and banking systems.
+Personal portfolio website for Tasya Amalia Salsabila, an Android Engineer with 5+ Years in Mobile Development building production fintech and banking systems.
 
 Live website: https://tasyamalia.github.io/
 
@@ -8,7 +8,7 @@ This portfolio is designed to communicate engineering impact, ownership, collabo
 
 ## Engineering Profile
 
-- 5+ years Android engineering experience
+- 5+ Years in Mobile Development
 - 20M+ total app downloads across products contributed to
 - 67+ major production features delivered
 - 4 large-scale financial products
