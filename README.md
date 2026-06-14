@@ -37,7 +37,6 @@ This portfolio is designed to communicate engineering impact, ownership, collabo
 - Authentication
 - Security & App Protection
 - Mutual Funds
-- Government Bonds (SBN)
 - Vehicle Financing
 - Business Financing
 - Lending & Credit
