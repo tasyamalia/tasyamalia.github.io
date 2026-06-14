@@ -3,6 +3,7 @@ import { footerLinks } from "@/data/portfolio";
 import { Button } from "@/components/ui/button";
 import { FooterArt } from "@/components/footer-art";
 import { Card } from "@/components/ui/card";
+import { CopyEmailButton } from "@/components/copy-email-button";
 
 export function Footer() {
   const email = "tasyaamaliasalsa@gmail.com";
@@ -39,12 +40,13 @@ export function Footer() {
               </a>
             </Button>
           </div>
-          <p className="mt-4 text-sm text-muted lg:text-right">
-            Email me at{" "}
+          <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-muted lg:justify-end">
+            <span>Email me at</span>
             <a className="font-medium text-slate-200 transition hover:text-green" href={emailHref}>
               {email}
             </a>
-          </p>
+            <CopyEmailButton email={email} />
+          </div>
         </div>
       </Card>
       <p className="py-5 text-center text-xs text-muted">

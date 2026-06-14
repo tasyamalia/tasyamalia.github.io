@@ -13,7 +13,7 @@ import { Writing } from "@/components/sections/writing";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-background">
+    <main className="relative min-h-[100dvh] overflow-hidden bg-background">
       <Navbar />
       <Hero />
       <Impact />

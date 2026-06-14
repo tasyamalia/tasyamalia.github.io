@@ -17,9 +17,9 @@ export function Hero() {
   ];
 
   return (
-    <section id="home" className="section-shell relative grid gap-8 pb-16 pt-12 lg:grid-cols-[1.05fr_0.95fr] lg:pb-20 lg:pt-16">
+    <section id="home" className="section-shell relative isolate grid gap-8 pb-16 pt-12 lg:grid-cols-[1.05fr_0.95fr] lg:pb-20 lg:pt-16">
       <HeroArt />
-      <Reveal className="flex flex-col justify-center">
+      <Reveal className="relative z-10 flex flex-col justify-center">
         <p className="mb-4 text-base font-semibold text-green">Hi, I&apos;m</p>
         <h1 className="max-w-3xl text-balance text-5xl font-bold leading-[1.02] tracking-normal text-slate-50 sm:text-6xl lg:text-7xl">
           Tasya Amalia <span className="text-green">Salsabila</span><span className="text-gold">.</span>
@@ -58,7 +58,7 @@ export function Hero() {
         </div>
       </Reveal>
 
-      <Reveal delay={0.12} className="flex items-center">
+      <Reveal delay={0.12} className="relative z-10 flex items-center">
         <div className="grid w-full gap-4 sm:grid-cols-2 lg:grid-cols-1">
           <Card className="p-6">
             <div className="flex items-center gap-3 text-gold">
