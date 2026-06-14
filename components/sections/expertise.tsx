@@ -6,7 +6,7 @@ import { SectionHeading } from "@/components/section-heading";
 function MiniCard({ item }: { item: (typeof buildItems)[number] }) {
   const Icon = item.icon;
   return (
-    <div className="flex items-start gap-3">
+    <div className="flex items-center gap-3">
       <span className="grid size-10 shrink-0 place-items-center rounded-lg border border-line bg-panel">
         <Icon className={`size-5 accent-${item.accent}`} />
       </span>

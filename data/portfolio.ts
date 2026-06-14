@@ -238,7 +238,6 @@ export const domainGroups = [
     items: [
       "Gold Investment",
       "Mutual Funds",
-      "Government Bonds (SBN)",
       "Vehicle Financing",
       "Business Financing",
       "Lending & Credit"
