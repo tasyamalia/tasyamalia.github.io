@@ -188,7 +188,6 @@ export const projects: Project[] = [
       "Deposits",
       "Foreign currency products",
       "Mutual funds",
-      "Government bonds (SBN)",
       "Authentication flows",
       "Forgot password",
       "Forgot user ID",
@@ -208,7 +207,7 @@ export const projects: Project[] = [
     image: "/projects/permata-mobile-x.png",
     imagePosition: "object-right",
     href: "https://play.google.com/store/apps/details?id=net.myinfosys.PermataMobileX&hl=en_US",
-    workedOn: ["E-wallet functionality", "MPN functionality", "Production support", "Stability improvements"],
+    workedOn: ["E-wallet functionality", "Production support", "Stability improvements"],
     tech: ["Kony Framework", "JavaScript", "REST API", "Mobile Banking Systems"],
     accent: "purple"
   }
