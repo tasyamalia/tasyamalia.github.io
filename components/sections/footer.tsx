@@ -5,6 +5,7 @@ import { FooterArt } from "@/components/footer-art";
 import { Card } from "@/components/ui/card";
 
 export function Footer() {
+  const email = "tasyaamaliasalsa@gmail.com";
   const emailHref = "mailto:tasyaamaliasalsa@gmail.com";
 
   return (
@@ -14,28 +15,36 @@ export function Footer() {
         <h2 className="relative z-10 max-w-xl text-balance text-3xl font-semibold leading-tight text-slate-50 sm:text-4xl">
           Let&apos;s build something amazing <span className="text-green">together.</span>
         </h2>
-        <div className="relative z-10 flex flex-wrap gap-3">
-          {footerLinks.map((link) => {
-            const Icon = link.icon;
-            return (
-              <Button key={link.label} asChild variant="outline">
-                <a
-                  href={link.href}
-                  target={link.href.startsWith("http") ? "_blank" : undefined}
-                  rel={link.href.startsWith("http") ? "noreferrer" : undefined}
-                >
-                  <Icon className="size-4" />
-                  {link.label}
-                </a>
-              </Button>
-            );
-          })}
-          <Button asChild variant="gold">
-            <a href={emailHref}>
-              <Send className="size-4" />
-              Let&apos;s Talk
+        <div className="relative z-10">
+          <div className="flex flex-wrap gap-3">
+            {footerLinks.map((link) => {
+              const Icon = link.icon;
+              return (
+                <Button key={link.label} asChild variant="outline">
+                  <a
+                    href={link.href}
+                    target={link.href.startsWith("http") ? "_blank" : undefined}
+                    rel={link.href.startsWith("http") ? "noreferrer" : undefined}
+                  >
+                    <Icon className="size-4" />
+                    {link.label}
+                  </a>
+                </Button>
+              );
+            })}
+            <Button asChild variant="gold">
+              <a href={emailHref}>
+                <Send className="size-4" />
+                Let&apos;s Talk
+              </a>
+            </Button>
+          </div>
+          <p className="mt-4 text-sm text-muted lg:text-right">
+            Email me at{" "}
+            <a className="font-medium text-slate-200 transition hover:text-green" href={emailHref}>
+              {email}
             </a>
-          </Button>
+          </p>
         </div>
       </Card>
       <p className="py-5 text-center text-xs text-muted">
