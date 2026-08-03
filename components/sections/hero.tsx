@@ -25,7 +25,7 @@ export function Hero() {
           Tasya Amalia <span className="text-green">Salsabila</span><span className="text-gold">.</span>
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-          Android Engineer with 5+ Years in Mobile Development building production fintech and banking systems,
+          Android Engineer with 6+ Years in Mobile Development building production fintech and banking systems,
           delivering critical user journeys across investment, lending, onboarding, authentication, payments, and
           security.
         </p>
