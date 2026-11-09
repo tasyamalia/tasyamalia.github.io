@@ -40,9 +40,20 @@ export const metrics: Metric[] = [
 
 export const experiences: Experience[] = [
   {
+    company: "PT Sinar Jernih Suksesindo",
+    role: "Android Developer — Assigned to Bank Danamon",
+    period: "Oct 2026 - Present",
+    highlights: [
+      "Develop and enhance Android banking features using Kotlin",
+      "Resolve bugs and improve app performance and UI",
+      "Collaborate with cross-functional teams to deliver feature enhancements"
+    ],
+    projects: ["D-Bank PRO"]
+  },
+  {
     company: "PT Infosys Solusi Terpadu",
     role: "Android Engineer / Mobile Developer",
-    period: "Aug 2020 - Present",
+    period: "Aug 2020 - Oct 2026",
     highlights: [
       "Built fintech and mobile banking apps used by millions",
       "Delivered onboarding, payments, QRIS, lending, investment, and authentication flows",
@@ -53,7 +64,7 @@ export const experiences: Experience[] = [
     responsibilities: ["Assistant Squad Lead", "Co-Tech Lead", "Technical Reviews", "Delivery Coordination"],
     responsibilityDescription:
       "In addition to delivering production features, I contribute to technical reviews, engineering alignment, delivery coordination, and team collaboration across multiple initiatives.",
-    projects: ["Tring!", "Hi by hibank", "BTN Mobile Banking", "PermataMobile X"]
+    projects: ["Tring!", "Hi by hibank", "BTN Mobile Banking", "PermataMobile X", "Victoria Mobile"]
   },
   {
     company: "PT Visionet Data Internasional",
